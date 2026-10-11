@@ -2,4 +2,4 @@
 
 The landing page for BeezyWorks: Siddur One, Mikros BaDerech and Mishnayos, plus a bit about me.
 
-One static `index.html` and an `img/` folder. No build step. Deployed with Cloudflare Pages (build command: none, output directory: `/`).
+Plain static files in `public/`, no build step. Deployed as a Cloudflare Worker with static assets (`wrangler.jsonc`): build command empty, deploy command `npx wrangler deploy`.
